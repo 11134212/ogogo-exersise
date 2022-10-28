@@ -1,0 +1,42 @@
+.resultWrapper {
+	max-width: 600px;
+	background-color: white;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	img {
+		max-width: 400px;
+		height: 200px;
+	}
+	h3 {
+		font-size: 27px;
+		letter-spacing: 0.5px;
+		font-weight: bold;
+	}
+	strong {
+		font-size: 26px;
+		color: palevioletred;
+	}
+
+	button {
+		width: 150px;
+		padding: 8px 10px;
+		cursor: pointer;
+		border-radius: 5px;
+		outline: none;
+		background-color: pink;
+		margin: 10px 0;
+		color: whitesmoke;
+		font-size: 20px;
+		font-weight: bold;
+		&:hover {
+			-webkit-box-shadow: -7px 11px 8px 0px rgba(0, 0, 0, 0.2);
+			-moz-box-shadow: -7px 11px 8px 0px rgba(0, 0, 0, 0.2);
+			box-shadow: -7px 11px 8px 0px rgba(0, 0, 0, 0.2);
+		}
+	}
+}
